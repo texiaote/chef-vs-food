@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/popcorn.png" id="1_sepb5"]
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="2_7ubmk"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/corn.png" id="3_jlhbv"]
+
+[resource]
+script = ExtResource("2_7ubmk")
+id = "corn"
+display_name = "玉米 Corn"
+texture = ExtResource("3_jlhbv")
+max_hp = 16.0
+speed = 34.0
+xp = 4
+behavior = "ranged"
+preferred_range = 145.0
+range_band = 26.0
+shoot_cooldown = 1.9
+projectile_speed = 120.0
+projectile_texture = ExtResource("1_sepb5")

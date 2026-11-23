@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_li8sk"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/potato.png" id="2_y2yv2"]
+
+[resource]
+script = ExtResource("1_li8sk")
+id = "potato"
+display_name = "土豆 Potato"
+texture = ExtResource("2_y2yv2")
+max_hp = 46.0
+speed = 18.0
+contact_damage = 10.0
+xp = 5
+radius = 14.0

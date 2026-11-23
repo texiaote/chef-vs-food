@@ -1,0 +1,10 @@
+WenQuanYi Micro Hei (subset)
+Copyright 2008-2009 The WenQuanYi Project Board of Trustees, Qianqian Fang, mozbug.
+Based on the Droid font family (Google / Steve Matteson, Ascender Corp).
+Some CJK punctuation from Ume-Font / Wada Laboratory.
+
+Licensed under the Apache License, Version 2.0
+or GPL-3+ with the font embedding exception.
+http://www.apache.org/licenses/LICENSE-2.0
+
+This file is a subset generated for Chef vs Food v0.1 UI text.

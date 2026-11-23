@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/pan.png" id="1_g403e"]
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="2_xudt7"]
+
+[resource]
+script = ExtResource("2_xudt7")
+id = "frying_pan"
+display_name = "平底锅 Frying Pan"
+description = "绕着厨师转。等级越高，锅越多。"
+texture = ExtResource("1_g403e")
+effect_texture = ExtResource("1_g403e")
+pattern = "orbit"
+damages = PackedFloat32Array(8, 10, 13, 16, 20)
+cooldowns = PackedFloat32Array(0.42, 0.38, 0.34, 0.3, 0.26)
+counts = PackedInt32Array(1, 2, 3, 4, 5)
+areas = PackedFloat32Array(15, 15, 16, 16, 17)
+extras = PackedFloat32Array(46, 48, 50, 52, 54)
+orbit_speed = 2.5

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PassiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/passive_data.gd" id="1_hsvji"]
+[ext_resource type="Texture2D" path="res://assets/textures/passives/apron.png" id="2_hjrg6"]
+
+[resource]
+script = ExtResource("1_hsvji")
+id = "apron"
+display_name = "围裙 Apron"
+description = "提高最大生命。"
+stat = "max_hp"
+per_level = 20.0
+texture = ExtResource("2_hjrg6")

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EvolutionData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/evolution_data.gd" id="1_wf11f"]
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/knife_rain.png" id="2_yq3jt"]
+
+[resource]
+script = ExtResource("1_wf11f")
+id = "knife_rain"
+display_name = "飞刀雨 Knife Rain"
+description = "飞刀满级且拥有秘制酱料。向四周同时扔出一圈飞刀。"
+weapon_id = "flying_knife"
+passive_id = "secret_sauce"
+pattern = "knife_rain"
+texture = ExtResource("2_yq3jt")
+damage_multiplier = 0.8
+count = 14

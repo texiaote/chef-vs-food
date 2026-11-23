@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PassiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/passive_data.gd" id="1_0e4eh"]
+[ext_resource type="Texture2D" path="res://assets/textures/passives/ladle.png" id="2_ifita"]
+
+[resource]
+script = ExtResource("1_0e4eh")
+id = "big_ladle"
+display_name = "大汤勺 Big Ladle"
+description = "扩大经验拾取范围。"
+stat = "pickup_radius"
+per_level = 24.0
+texture = ExtResource("2_ifita")

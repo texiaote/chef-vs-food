@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_57pu5"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/cake.png" id="2_wncdc"]
+
+[resource]
+script = ExtResource("1_57pu5")
+id = "cake"
+display_name = "巨型生日蛋糕 Giant Birthday Cake"
+texture = ExtResource("2_wncdc")
+max_hp = 1400.0
+speed = 24.0
+contact_damage = 10.0
+xp = 120
+radius = 34.0
+behavior = "boss"
+is_boss = true
+summon_id = "cake_small"
+summon_count = 3
+summon_cooldown = 5.5
+slam_cooldown = 4.2
+slam_radius = 74.0
+slam_duration = 2.5
+slam_slow = 0.48
+slam_windup = 0.4

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_age2b"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/onion_small.png" id="2_csr7h"]
+
+[resource]
+script = ExtResource("1_age2b")
+id = "onion_small"
+display_name = "小洋葱 Small Onion"
+texture = ExtResource("2_csr7h")
+max_hp = 6.0
+speed = 44.0
+contact_damage = 5.0
+radius = 8.0

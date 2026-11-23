@@ -1,0 +1,14 @@
+.godot/
+*.tmp
+.DS_Store
+*.translation
+.import/
+export.cfg
+export_presets.cfg
+.mono/
+.idea/
+*.apk
+*.aab
+*.exe
+*.pck
+*.zip

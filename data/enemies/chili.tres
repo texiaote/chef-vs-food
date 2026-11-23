@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_640j3"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/chili.png" id="2_a8nny"]
+
+[resource]
+script = ExtResource("1_640j3")
+id = "chili"
+display_name = "辣椒 Chili"
+texture = ExtResource("2_a8nny")
+max_hp = 6.0
+speed = 74.0
+xp = 2
+radius = 10.0

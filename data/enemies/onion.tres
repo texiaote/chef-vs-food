@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_xtew0"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/onion.png" id="2_n8fxk"]
+
+[resource]
+script = ExtResource("1_xtew0")
+id = "onion"
+display_name = "洋葱 Onion"
+texture = ExtResource("2_n8fxk")
+max_hp = 18.0
+speed = 32.0
+contact_damage = 7.0
+xp = 4
+behavior = "split"
+split_id = "onion_small"
+split_count = 2
