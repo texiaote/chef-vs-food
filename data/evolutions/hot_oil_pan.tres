@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="EvolutionData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/evolution_data.gd" id="1_hwtbs"]
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/hot_pan.png" id="2_y8xam"]
+
+[resource]
+script = ExtResource("1_hwtbs")
+id = "hot_oil_pan"
+display_name = "热油锅 Hot Oil Pan"
+description = "平底锅满级且拥有厨房计时器。轨道更大，命中的敌人会燃烧。"
+weapon_id = "frying_pan"
+passive_id = "kitchen_timer"
+pattern = "hot_oil"
+texture = ExtResource("2_y8xam")
+damage_multiplier = 1.15
+radius_multiplier = 1.65
+count = 5
+burn_dps = 7.0
+burn_duration = 2.2

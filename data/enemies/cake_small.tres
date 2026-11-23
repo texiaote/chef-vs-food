@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EnemyData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1_nhkdw"]
+[ext_resource type="Texture2D" path="res://assets/textures/enemies/cake_small.png" id="2_fxy36"]
+
+[resource]
+script = ExtResource("1_nhkdw")
+id = "cake_small"
+display_name = "小蛋糕 Small Cake"
+texture = ExtResource("2_fxy36")
+max_hp = 20.0
+speed = 38.0
+contact_damage = 7.0
+xp = 3
+radius = 11.0

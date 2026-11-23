@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/spatula.png" id="1_ckol5"]
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="2_vs3re"]
+
+[resource]
+script = ExtResource("2_vs3re")
+id = "spatula"
+display_name = "锅铲 Spatula"
+description = "朝面前扇形挥击，只打近处的敌人。"
+texture = ExtResource("1_ckol5")
+effect_texture = ExtResource("1_ckol5")
+pattern = "spatula"
+damages = PackedFloat32Array(9, 12, 16, 20, 26)
+cooldowns = PackedFloat32Array(0.82, 0.74, 0.66, 0.58, 0.52)
+counts = PackedInt32Array(1, 1, 1, 1, 1)
+areas = PackedFloat32Array(70, 82, 96, 112, 130)
+extras = PackedFloat32Array(40, 46, 52, 58, 66)

@@ -1,0 +1,42 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/battle.gd" id="1_battle"]
+[ext_resource type="Script" path="res://scripts/battle/ground.gd" id="2_ground"]
+[ext_resource type="Texture2D" path="res://assets/textures/ground.png" id="3_tex"]
+[ext_resource type="Script" path="res://scripts/battle/gem_field.gd" id="4_gems"]
+[ext_resource type="Script" path="res://scripts/battle/horde.gd" id="5_horde"]
+[ext_resource type="PackedScene" path="res://scenes/chef.tscn" id="6_chef"]
+[ext_resource type="Script" path="res://scripts/battle/arsenal.gd" id="7_arsenal"]
+[ext_resource type="Script" path="res://scripts/ui/hud.gd" id="8_hud"]
+[ext_resource type="Script" path="res://scripts/ui/level_up.gd" id="9_level"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_battle")
+
+[node name="Ground" type="Sprite2D" parent="."]
+texture = ExtResource("3_tex")
+texture_filter = 1
+texture_repeat = 1
+region_enabled = true
+region_rect = Rect2(0, 0, 688, 408)
+script = ExtResource("2_ground")
+
+[node name="Gems" type="Node2D" parent="."]
+script = ExtResource("4_gems")
+
+[node name="World" type="Node2D" parent="."]
+script = ExtResource("5_horde")
+
+[node name="Chef" parent="." instance=ExtResource("6_chef")]
+
+[node name="Arsenal" type="Node2D" parent="."]
+script = ExtResource("7_arsenal")
+
+[node name="Camera" type="Camera2D" parent="."]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("8_hud")
+
+[node name="LevelUp" type="CanvasLayer" parent="."]
+process_mode = 3
+script = ExtResource("9_level")

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/rolling_pin.png" id="1_4nwqr"]
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="2_b7f3j"]
+
+[resource]
+script = ExtResource("2_b7f3j")
+id = "rolling_pin"
+display_name = "擀面杖 Rolling Pin"
+description = "扔出擀面杖，在敌人之间弹来弹去。"
+texture = ExtResource("1_4nwqr")
+effect_texture = ExtResource("1_4nwqr")
+pattern = "bounce"
+damages = PackedFloat32Array(10, 13, 16, 20, 25)
+cooldowns = PackedFloat32Array(1.45, 1.3, 1.15, 1, 0.9)
+counts = PackedInt32Array(1, 1, 1, 2, 2)
+areas = PackedFloat32Array(8, 8, 9, 9, 10)
+extras = PackedFloat32Array(3, 4, 5, 6, 8)
+projectile_speed = 210.0
+chain_range = 190.0

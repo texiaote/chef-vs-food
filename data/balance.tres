@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="BalanceData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/balance_data.gd" id="1_2gprt"]
+
+[resource]
+script = ExtResource("1_2gprt")
+player_speed = 102.0
+base_pickup_radius = 56.0
+xp_base = 12.0
+xp_exponent = 1.28
+spawn_interval_at_minute = PackedFloat32Array(0.2, 0.17, 0.15, 0.13, 0.11, 0.09, 0.075, 0.06, 0.05, 0.04, 0.04)
+spawn_ids = PackedStringArray("broccoli", "chili", "potato", "onion", "corn")
+spawn_from = PackedFloat32Array(0, 120, 240, 300, 360)
+spawn_weight = PackedFloat32Array(8, 6, 4, 4, 4)

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/textures/weapons/knife.png" id="1_kdo74"]
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="2_vrsck"]
+
+[resource]
+script = ExtResource("2_vrsck")
+id = "flying_knife"
+display_name = "飞刀 Flying Knife"
+description = "朝移动方向射出飞刀，每把只打一个敌人。"
+texture = ExtResource("1_kdo74")
+effect_texture = ExtResource("1_kdo74")
+damages = PackedFloat32Array(12, 16, 20, 25, 32)
+cooldowns = PackedFloat32Array(0.7, 0.62, 0.54, 0.48, 0.42)
+counts = PackedInt32Array(1, 1, 2, 2, 3)
+areas = PackedFloat32Array(6, 6, 6, 6, 6)
+extras = PackedFloat32Array(1, 1, 1, 1, 1)
+projectile_speed = 300.0
